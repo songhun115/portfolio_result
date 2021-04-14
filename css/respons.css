@@ -34,7 +34,7 @@
       transition: 0.3;
       width: 47%;
     }
-    .work__projects{justify-content: flex-start;}
+    .work__projects{justify-content: center;}
   
   }
   @media (max-width: 960px) {
@@ -188,6 +188,8 @@
 
 
   @media (max-width: 700px) {
+    .responsive_p{display: none;}
+    .footer_bg img {bottom: 40px;}
     .main_visuare_title_bg{
       width: 200px;
     height: 200px;
