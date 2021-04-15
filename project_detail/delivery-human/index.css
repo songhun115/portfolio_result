@@ -21,7 +21,7 @@ a {
 }
 .section01_wrap {
   display: flex;
-  height: 100%;
+  height: 90vh;
 }
 .seciton01 {
   height: 901;
@@ -114,6 +114,7 @@ a {
 }
 
 @media (max-width: 800px) {
+  .section01_wrap{height: 100%;}
   .section06_right_wrap{border-top: none;}
   .section06_right_wrap img {width: 250px;}
   .section06_right {
