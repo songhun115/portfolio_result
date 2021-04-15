@@ -196,6 +196,7 @@
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+  background-color: #fff;
 }
 
 .open_menu_box {
