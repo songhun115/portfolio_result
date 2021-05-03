@@ -54,9 +54,8 @@ $(document).ready(function() {
           $(".nav_list").toggleClass('active');
           if($(".nav_list").hasClass("active")){
              $("#header").addClass('active');
-          }else {
-            $("#header").removeClass('active');
           }
+          
           
       });
       $(".nav_item").click(function () {
